@@ -10,6 +10,8 @@ set expandtab
 "开启了et后使用退格（backspace）键，每次退格将删除4个空格 
 set softtabstop=4
 
+filetype plugin indent on
+
 "让打开文件时光标自动到上次退出该文件时的光标所在位置
 autocmd BufReadPost * if line("'\"") && line("'\"") <= line("$") | exe "normal `\"" | endif
 
