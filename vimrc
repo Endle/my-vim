@@ -24,6 +24,12 @@ set showmatch
 "让打开文件时光标自动到上次退出该文件时的光标所在位置
 autocmd BufReadPost * if line("'\"") && line("'\"") <= line("$") | exe "normal `\"" | endif
 
+"tagbar
+"https://github.com/majutsushi/tagbar
+nmap <F3> :TagbarToggle<CR>
+nmap <leader>t :TagbarToggle<CR>
+let g:tagbar_left=1
+
 "Configure for cscope
 set nocscopeverbose 
 "set cscopequickfix=s-,c-,d-,i-,t-,e-
