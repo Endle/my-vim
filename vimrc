@@ -33,6 +33,47 @@ nmap <F3> :TagbarToggle<CR>
 nmap <leader>t :TagbarToggle<CR>
 let g:tagbar_left=1
 
+"编译运行
+func! CompileRun()
+    exec "w"
+    if &filetype == 'c'
+        exec "!gcc -g % -o %<"
+        exec "! ./%<"
+    elseif &filetype == 'cpp'
+        exec "!g++ -g % -o %<"
+        exec "! ./%<"
+    elseif &filetype == 'java' 
+        exec "!javac %" 
+        exec "!java %<"
+    elseif &filetype == 'sh'
+        :!./%
+    elseif &filetype == 'python' "我添加的执行python的命令
+        exec "!python3 %"
+    elseif &filetype == 'ruby'
+        exec "!ruby %"
+    endif
+endfunc
+nmap <F5> :call CompileRun()<CR>
+nmap <leader>r : call CompileRun()<CR>
+
+"C,C++的调试
+func! Rungdb()
+    "检查一下文件类型
+    if &filetype != 'c' && &filetype != 'cpp'
+        return
+    endif
+    exec "w"
+    if &filetype == 'c'
+        exec "!gcc -g % -o %<"
+    elseif &filetype == 'cpp'
+        exec "!g++ -g % -o %<"
+    endif
+    exec "!gdb ./%<"
+endfunc
+nmap <F4> :call Rungdb()<CR>
+nmap <leader>d : call Rungdb()<CR>
+
+
 "Configure for cscope
 set nocscopeverbose 
 "set cscopequickfix=s-,c-,d-,i-,t-,e-
