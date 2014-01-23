@@ -1,0 +1,3 @@
+[submodule "bundle/vim-signify"]
+	path = bundle/vim-signify
+	url = git@github.com:mhinz/vim-signify.git
