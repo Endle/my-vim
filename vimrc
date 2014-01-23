@@ -33,10 +33,6 @@ nmap <F3> :TagbarToggle<CR>
 nmap <leader>t :TagbarToggle<CR>
 let g:tagbar_left=1
 
-"Config for  mhinz/vim-signify
-"https://github.com/mhinz/vim-signify
-let g:signify_vcs_list = ['git', 'hg', 'svn']
-
 "编译运行
 func! CompileRun()
     exec "w"
