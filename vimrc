@@ -27,11 +27,15 @@ autocmd BufReadPost * if line("'\"") && line("'\"") <= line("$") | exe "normal `
 "http://easwy.com/blog/archives/advanced-vim-skills-syntax-on-colorscheme/
 colorscheme desert
 
+"=== vim bundle (managed by git-submodule) ===
 "tagbar
 "https://github.com/majutsushi/tagbar
 nmap <F3> :TagbarToggle<CR>
 nmap <leader>t :TagbarToggle<CR>
 let g:tagbar_left=1
+
+"vim-signify
+let g:signify_vcs_list = [ 'git', 'hg' ]
 
 "编译运行
 func! CompileRun()
