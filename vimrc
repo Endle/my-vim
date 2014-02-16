@@ -28,6 +28,11 @@ autocmd BufReadPost * if line("'\"") && line("'\"") <= line("$") | exe "normal `
 "http://easwy.com/blog/archives/advanced-vim-skills-syntax-on-colorscheme/
 colorscheme desert
 
+"不兼容 vi
+set nocp
+"backspace
+set backspace=indent,eol,start
+
 "=== vim bundle (managed by git-submodule) ===
 "tagbar
 "https://github.com/majutsushi/tagbar
