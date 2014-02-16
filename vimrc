@@ -38,6 +38,12 @@ let g:tagbar_left=1
 "vim-signify
 let g:signify_vcs_list = [ 'git', 'hg' ]
 
+"indentLine
+"设置成深红色
+let g:indentLine_color_term = 1
+
+"=== end of vim bundle ===
+
 "编译运行
 func! CompileRun()
     exec "w"
