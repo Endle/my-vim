@@ -17,6 +17,7 @@ filetype plugin indent on
 
 set autoindent
 set smartindent
+syntax enable
 
 "显示括号配对情况
 set showmatch
