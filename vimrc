@@ -2,6 +2,8 @@
 execute pathogen#infect()
 
 set number
+"默认高亮匹配所有的字符串
+set hlsearch
 
 "Refer:  http://linux-wiki.cn/wiki/zh-hans/Vim%E4%BB%A3%E7%A0%81%E7%BC%A9%E8%BF%9B%E8%AE%BE%E7%BD%AE
 "编辑时一个TAB字符占4空格
