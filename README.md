@@ -11,3 +11,6 @@ vim version > 7.3 (for  Yggdroot / indentLine)
 2. ln -s /path/to/repo  ~/.vim  
 3. git submodule init && git submodule update  
 (Reference: <http://liluo.org/blog/2012/05/using-git-submodule-and-vim-pathogen-for-vim-configuraction-management/>)
+
+#Manual
+\<leader\> + Space: StripTrailingWhitespace
