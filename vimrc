@@ -135,6 +135,13 @@ function! <SID>StripTrailingWhitespace()
 endfunction
 nmap <silent> <Leader><space> :call <SID>StripTrailingWhitespace()<CR>
 
+"http://www.reddit.com/r/vim/comments/12k0fi/highlight_spaces_at_the_end_of_lines_when_outside/
+highlight default link EndOfLineSpace ErrorMsg
+match EndOfLineSpace / \+$/
+autocmd InsertEnter * hi link EndOfLineSpace Normal
+autocmd InsertLeave * hi link EndOfLineSpace ErrorMsg
+
+
 
 " For Haskell
 " by Ruchee, http://www.douban.com/group/topic/23185844/
