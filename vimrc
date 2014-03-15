@@ -12,7 +12,7 @@ set tabstop=4
 set shiftwidth=4
 "将输入的TAB自动展开成空格
 set expandtab
-"开启了et后使用退格（backspace）键，每次退格将删除4个空格 
+"开启了et后使用退格（backspace）键，每次退格将删除4个空格
 set softtabstop=4
 
 filetype plugin indent on
@@ -60,8 +60,8 @@ func! CompileRun()
     elseif &filetype == 'cpp'
         exec "!g++ -g % -o %<"
         exec "! ./%<"
-    elseif &filetype == 'java' 
-        exec "!javac %" 
+    elseif &filetype == 'java'
+        exec "!javac %"
         exec "!java %<"
     elseif &filetype == 'sh'
         :!./%
@@ -96,7 +96,7 @@ nmap <leader>d : call Rungdb()<CR>
 
 
 "Configure for cscope
-set nocscopeverbose 
+set nocscopeverbose
 "set cscopequickfix=s-,c-,d-,i-,t-,e-
 set cst
 function LoadCscope(path)
@@ -115,7 +115,7 @@ function LoadCscope(path)
             let l:newpath=a:path."/.."
             let newpath=resolve(newpath)
             "echo newpath
-            call LoadCscope(newpath) 
+            call LoadCscope(newpath)
         endif
     endif
 endfunction
