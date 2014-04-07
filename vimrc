@@ -141,16 +141,6 @@ match EndOfLineSpace / \+$/
 autocmd InsertEnter * hi link EndOfLineSpace Normal
 autocmd InsertLeave * hi link EndOfLineSpace ErrorMsg
 
-
 "http://wiki.winehq.org/VimTips#tip02
 vmap ,c "zdi{<C-R>=substitute(substitute(@z, '\(.\)', "'\\1',", "g"), "'\\(['\\\\]\\)'", "'\\\\\\1'", "g")<CR><ESC>a'\0'}<ESC>
 
-
-" For Haskell
-" by Ruchee, http://www.douban.com/group/topic/23185844/
-" :let hs_highlight_delimiters = 1 " 高亮定界符
-" :let hs_highlight_boolean = 1 " 把True和False识别为关键字
-" :let hs_highlight_types = 1 " 把基本类型的名字识别为关键字
-" :let hs_highlight_more_types = 1 " 把更多常用类型识别为关键字
-" :let hs_highlight_debug = 1 " 高亮调试函数的名字
-" :let hs_allow_hash_operator = 1 " 阻止把#高亮为错误
