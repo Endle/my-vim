@@ -13,4 +13,5 @@ vim version > 7.3 (for  Yggdroot / indentLine)
 (Reference: <http://liluo.org/blog/2012/05/using-git-submodule-and-vim-pathogen-for-vim-configuraction-management/>)
 
 #Manual
-\<leader\> + Space: StripTrailingWhitespace
+\<leader\> + Space: StripTrailingWhitespace  
+`,c`: To convert a string to a character array

@@ -142,6 +142,9 @@ autocmd InsertEnter * hi link EndOfLineSpace Normal
 autocmd InsertLeave * hi link EndOfLineSpace ErrorMsg
 
 
+"http://wiki.winehq.org/VimTips#tip02
+vmap ,c "zdi{<C-R>=substitute(substitute(@z, '\(.\)', "'\\1',", "g"), "'\\(['\\\\]\\)'", "'\\\\\\1'", "g")<CR><ESC>a'\0'}<ESC>
+
 
 " For Haskell
 " by Ruchee, http://www.douban.com/group/topic/23185844/
