@@ -135,6 +135,9 @@ function! <SID>StripTrailingWhitespace()
 endfunction
 nmap <silent> <Leader><space> :call <SID>StripTrailingWhitespace()<CR>
 
+"http://www.linuxzen.com/tui-jian-ji-kuan-zui-jin-fa-xian-fei-chang-ku-de-vimcha-jian.html
+map <leader>il :IndentLinesToggle<CR>
+
 "http://www.reddit.com/r/vim/comments/12k0fi/highlight_spaces_at_the_end_of_lines_when_outside/
 highlight default link EndOfLineSpace ErrorMsg
 match EndOfLineSpace / \+$/
