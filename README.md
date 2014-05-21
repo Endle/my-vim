@@ -15,4 +15,5 @@ vim version > 7.3 (for  Yggdroot / indentLine)
 #Manual
 \<leader\> + Space: StripTrailingWhitespace  
 \<leader\> + il: Enable/Disable Yggdroot/indentLine  
+\<leader\> + ta: Enable/Disable HighLight for Tabs  
 `,c`: To convert a string to a character array

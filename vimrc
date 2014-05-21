@@ -144,6 +144,21 @@ match EndOfLineSpace / \+$/
 autocmd InsertEnter * hi link EndOfLineSpace Normal
 autocmd InsertLeave * hi link EndOfLineSpace ErrorMsg
 
+"High Light Tabs
+let g:HighLightTabsInCodeStatus=0
+function HighLightTabsInCode()
+    if g:HighLightTabsInCodeStatus == 0
+        highlight default link TabInCode ErrorMsg
+        match TabInCode /\t/
+        let g:HighLightTabsInCodeStatus=1
+    else
+        highlight default link TabInCode ErrorMsg
+        match TabInCode /THIS_WILL_NEVer_bE_sHoWN/
+        let g:HighLightTabsInCodeStatus=0
+    endif
+endfunction
+nmap <leader>ta : call HighLightTabsInCode()<CR>
+
 "http://wiki.winehq.org/VimTips#tip02
 vmap ,c "zdi{<C-R>=substitute(substitute(@z, '\(.\)', "'\\1',", "g"), "'\\(['\\\\]\\)'", "'\\\\\\1'", "g")<CR><ESC>a'\0'}<ESC>
 
