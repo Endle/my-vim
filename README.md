@@ -21,3 +21,9 @@ vim version > 7.3 (for  Yggdroot / indentLine)
 ##comments.vim
 To comment  \<Ctrl-C\> in both normal and visual \<Shift-V\> range select mode  
 To un-comment \<Ctrl-X\> in both normal and visual \<Shift-V\> range select mode  
+
+##a.vim
+
+:A switches to the header file corresponding to the current file being edited (or vise versa)  
+:AT new tab and switches  
+More usage on <http://www.vim.org/scripts/script.php?script_id=31>  
