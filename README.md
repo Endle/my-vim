@@ -13,17 +13,16 @@ vim version > 7.3 (for  Yggdroot / indentLine)
 (Reference: <http://liluo.org/blog/2012/05/using-git-submodule-and-vim-pathogen-for-vim-configuraction-management/>)
 
 #Manual
-\<leader\> + Space: StripTrailingWhitespace  
-\<leader\> + il: Enable/Disable Yggdroot/indentLine  
-\<leader\> + ta: Enable/Disable HighLight for Tabs  
+`<leader> + Space`: StripTrailingWhitespace  
+`<leader> + il`: Enable/Disable Yggdroot/indentLine  
+`<leader> + ta`: Enable/Disable HighLight for Tabs  
 `,c`: To convert a string to a character array  
 
 ##comments.vim
-To comment  \<Ctrl-C\> in both normal and visual \<Shift-V\> range select mode  
-To un-comment \<Ctrl-X\> in both normal and visual \<Shift-V\> range select mode  
+To comment  `<Ctrl-C>` in both normal and visual `<Shift-V>` range select mode  
+To un-comment `<Ctrl-X`> in both normal and visual `<Shift-V`> range select mode  
 
 ##a.vim
-
-:A switches to the header file corresponding to the current file being edited (or vise versa)  
-:AT new tab and switches  
+`:A` switches to the header file corresponding to the current file being edited (or vise versa)  
+`:AT` new tab and switches  
 More usage on <http://www.vim.org/scripts/script.php?script_id=31>  
