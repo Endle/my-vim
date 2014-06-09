@@ -16,4 +16,8 @@ vim version > 7.3 (for  Yggdroot / indentLine)
 \<leader\> + Space: StripTrailingWhitespace  
 \<leader\> + il: Enable/Disable Yggdroot/indentLine  
 \<leader\> + ta: Enable/Disable HighLight for Tabs  
-`,c`: To convert a string to a character array
+`,c`: To convert a string to a character array  
+
+##comments.vim
+To comment  \<Ctrl-C\> in both normal and visual \<Shift-V\> range select mode  
+To un-comment \<Ctrl-X\> in both normal and visual \<Shift-V\> range select mode  
