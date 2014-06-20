@@ -162,3 +162,6 @@ nmap <leader>ta : call HighLightTabsInCode()<CR>
 "http://wiki.winehq.org/VimTips#tip02
 vmap ,c "zdi{<C-R>=substitute(substitute(@z, '\(.\)', "'\\1',", "g"), "'\\(['\\\\]\\)'", "'\\\\\\1'", "g")<CR><ESC>a'\0'}<ESC>
 
+"http://stackoverflow.com/a/17723513
+nmap ta :match Error /\t/<CR>
+
