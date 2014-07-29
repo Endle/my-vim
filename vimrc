@@ -2,6 +2,7 @@
 execute pathogen#infect()
 
 set number
+set ruler
 "默认高亮匹配所有的字符串
 set hlsearch
 
