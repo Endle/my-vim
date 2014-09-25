@@ -1,6 +1,9 @@
 "https://github.com/tpope/vim-pathogen
 execute pathogen#infect()
 
+"个人偏好，有需求的话，可以考虑把配色方案放到另一个文件中处理
+colorscheme desert
+
 set number
 set ruler
 "默认高亮匹配所有的字符串
