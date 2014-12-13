@@ -169,3 +169,9 @@ vmap ,c "zdi{<C-R>=substitute(substitute(@z, '\(.\)', "'\\1',", "g"), "'\\(['\\\
 "http://stackoverflow.com/a/17723513
 nmap ta :match Error /\t/<CR>
 
+"Hovercraft
+function BuildHovercraft()
+    exec "w"
+    exec "!hovercraft -t default % result"
+endfunction
+nmap <leader>hc : call BuildHovercraft()<CR>
