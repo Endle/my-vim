@@ -68,7 +68,7 @@ func! CompileRun()
         exec "!javac %"
         exec "!java %<"
     elseif &filetype == 'sh'
-        :!./%
+        exec "!bash %"
     elseif &filetype == 'python' "我添加的执行python的命令
         exec "!python3 %"
     elseif &filetype == 'ruby'
