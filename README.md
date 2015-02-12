@@ -27,3 +27,7 @@ To un-comment `<Ctrl-X`> in both normal and visual `<Shift-V`> range select mode
 `:A` switches to the header file corresponding to the current file being edited (or vise versa)  
 `:AT` new tab and switches  
 More usage on <http://www.vim.org/scripts/script.php?script_id=31>  
+
+##ag.vim
+`:Ag [options] {pattern} [{directory}]`
+
