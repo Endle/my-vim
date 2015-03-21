@@ -16,6 +16,7 @@ vim version > 7.3 (for  Yggdroot / indentLine)
 `<leader> + Space`: StripTrailingWhitespace  
 `<leader> + il`: Enable/Disable Yggdroot/indentLine  
 `<leader> + ta`: Enable/Disable HighLight for Tabs  
+`<leader> + h`: Add HeaderGuard for C/C++ files  
 `,c`: To convert a string to a character array  
 `ta`: To highlight all TABs
 

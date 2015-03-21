@@ -175,3 +175,7 @@ function BuildHovercraft()
     exec "!hovercraft -t default % result"
 endfunction
 nmap <leader>hc : call BuildHovercraft()<CR>
+
+"Add HeaderGuard
+nmap <leader>h : call HeaderguardAdd()<CR>
+

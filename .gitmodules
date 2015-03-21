@@ -16,3 +16,6 @@
 [submodule "bundle/ag.vim"]
 	path = bundle/ag.vim
 	url = https://github.com/rking/ag.vim
+[submodule "bundle/vim-headerguard"]
+	path = bundle/vim-headerguard
+	url = https://github.com/drmikehenry/vim-headerguard.git
