@@ -18,7 +18,8 @@ vim version > 7.3 (for  Yggdroot / indentLine)
 `<leader> + ta`: Enable/Disable HighLight for Tabs  
 `<leader> + h`: Add HeaderGuard for C/C++ files  
 `,c`: To convert a string to a character array  
-`ta`: To highlight all TABs
+`ta`: To highlight all TABs  
+`<leader> + fp`: To show current file's path
 
 ##comments.vim
 To comment  `<Ctrl-C>` in both normal and visual `<Shift-V>` range select mode  

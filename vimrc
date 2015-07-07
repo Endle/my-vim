@@ -179,3 +179,6 @@ nmap <leader>hc : call BuildHovercraft()<CR>
 "Add HeaderGuard
 nmap <leader>h : call HeaderguardAdd()<CR>
 
+"显示当前文件路径
+nmap <leader>fp : echo expand('%:p')<CR>
+
