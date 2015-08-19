@@ -33,3 +33,6 @@ More usage on <http://www.vim.org/scripts/script.php?script_id=31>
 ##ag.vim
 `:Ag [options] {pattern} [{directory}]`
 
+##Compile And Run
+`<leader> + m`: Run `make` in current folder  
+

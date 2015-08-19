@@ -98,6 +98,13 @@ endfunc
 nmap <F4> :call Rungdb()<CR>
 nmap <leader>d : call Rungdb()<CR>
 
+"Run make
+func! RunMake()
+    exec "w"
+    exec "!make"
+endfunc
+nmap <leader>m : call RunMake()<CR>
+
 
 "Configure for cscope
 set nocscopeverbose
