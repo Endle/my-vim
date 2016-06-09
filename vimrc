@@ -196,3 +196,10 @@ autocmd FileType python setlocal foldmethod=indent
 "默认展开所有代码
 set foldlevel=99
 
+"Make here
+function RunMakeInSitu()
+    exec "w"
+    exec "!make"
+endfunction
+nmap <leader>wm : call RunMakeInSitu()<CR>
+
