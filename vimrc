@@ -77,6 +77,8 @@ func! CompileRun()
     elseif &filetype == 'haskell'
         exec "!ghc --make %"
         exec "! ./%<"
+    elseif &filetype == 'spec' "Only for fedora
+        exec "!rpmbuild -ba %"
     endif
 endfunc
 nmap <F5> :call CompileRun()<CR>
