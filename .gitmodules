@@ -19,3 +19,6 @@
 [submodule "bundle/vim-headerguard"]
 	path = bundle/vim-headerguard
 	url = https://github.com/drmikehenry/vim-headerguard.git
+[submodule "bundle/jshint2.vim"]
+	path = bundle/jshint2.vim
+	url = https://github.com/Shutnik/jshint2.vim.git

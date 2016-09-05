@@ -1,6 +1,4 @@
 #my-vim
-不小心把原有的 vim 配置删掉了。。。那就从头开始吧
-
 侧重 C++ 和 Python 的代码。有什么建议欢迎提出
 
 #使用要求
@@ -20,7 +18,8 @@ vim version > 7.3 (for  Yggdroot / indentLine)
 `,c`: To convert a string to a character array  
 `ta`: To highlight all TABs  
 `<leader> + fp`: To show current file's path  
-`<leader> + wm`: Run `make` in situ
+`<leader> + wm`: Run `make` in situ  
+`Ctrl+J + Ctrl+H`: Run JSHint
 
 ##comments.vim
 To comment  `<Ctrl-C>` in both normal and visual `<Shift-V>` range select mode  

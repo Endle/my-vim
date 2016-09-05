@@ -205,3 +205,5 @@ function RunMakeInSitu()
 endfunction
 nmap <leader>wm : call RunMakeInSitu()<CR>
 
+nmap <silent><C-J> <C-H>:JSHint<CR>
+
