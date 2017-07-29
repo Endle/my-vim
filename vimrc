@@ -207,3 +207,7 @@ nmap <leader>wm : call RunMakeInSitu()<CR>
 
 nmap <silent><C-J> <C-H>:JSHint<CR>
 
+"https://github.com/aperezdc/vim-template/blob/master/doc/template.txt#L42
+let g:templates_no_autocmd=1
+nmap <leader>tc : Template *.cpp<CR>
+
