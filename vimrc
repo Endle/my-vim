@@ -68,8 +68,6 @@ func! CompileRun()
     elseif &filetype == 'java'
         exec "!javac %"
         exec "!java %<"
-    elseif &filetype == 'sh'
-        exec "!bash %"
     elseif &filetype == 'python' "我添加的执行python的命令
         exec "!python3 %"
     elseif &filetype == 'ruby'
@@ -79,6 +77,12 @@ func! CompileRun()
         exec "! ./%<"
     elseif &filetype == 'spec' "Only for fedora
         exec "!rpmbuild -ba %"
+    elseif &filetype == 'sh'
+        exec "!bash %"
+    elseif &filetype == 'perl'
+        exec "!perl %"
+    else
+        exec "! ./%"
     endif
 endfunc
 nmap <F5> :call CompileRun()<CR>
@@ -210,4 +214,5 @@ nmap <silent><C-J> <C-H>:JSHint<CR>
 "https://github.com/aperezdc/vim-template/blob/master/doc/template.txt#L42
 let g:templates_no_autocmd=1
 nmap <leader>tc : Template *.cpp<CR>
+nmap <leader>tcp : Template *.pl<CR>
 
