@@ -25,6 +25,3 @@
 [submodule "bundle/vim-jsdoc"]
 	path = bundle/vim-jsdoc
 	url = https://github.com/heavenshell/vim-jsdoc.git
-[submodule "bundle/vim-template"]
-	path = bundle/vim-template
-	url = git://github.com/aperezdc/vim-template.git
