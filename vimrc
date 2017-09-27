@@ -80,7 +80,7 @@ func! CompileRun()
     elseif &filetype == 'sh'
         exec "!bash %"
     elseif &filetype == 'perl'
-        exec "!perl %"
+        exec "! clear && perl %"
     else
         exec "! ./%"
     endif
