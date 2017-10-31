@@ -216,3 +216,5 @@ let g:templates_no_autocmd=1
 nmap <leader>tc : Template *.cpp<CR>
 nmap <leader>tcp : Template *.pl<CR>
 
+nnoremap <C-L> a<CR>---------------------<CR><Esc>i
+

@@ -19,7 +19,8 @@ vim version > 7.3 (for  Yggdroot / indentLine)
 `ta`: To highlight all TABs  
 `<leader> + fp`: To show current file's path  
 `<leader> + wm`: Run `make` in situ  
-`Ctrl+J + Ctrl+H`: Run JSHint
+`Ctrl+J + Ctrl+H`: Run JSHint  
+`Ctrl+L`: new title line  
 
 ##comments.vim
 To comment  `<Ctrl-C>` in both normal and visual `<Shift-V>` range select mode  
