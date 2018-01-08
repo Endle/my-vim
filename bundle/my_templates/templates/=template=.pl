@@ -7,7 +7,7 @@ use feature qw(say);
 ########################################################
 #
 # File          %FILE%.pl
-# BIOL6308      fall2017
+# BIOL6309      2018 Spring
 # Author        Zhenbo Li <li.zhenb@husky.neu.edu>
 # Created       %DATE%
 #
