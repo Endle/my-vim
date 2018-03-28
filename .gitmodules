@@ -25,3 +25,9 @@
 [submodule "bundle/vim-jsdoc"]
 	path = bundle/vim-jsdoc
 	url = https://github.com/heavenshell/vim-jsdoc.git
+[submodule "bundle/rust.vin"]
+	path = bundle/rust.vin
+	url = https://github.com/rust-lang/rust.vim.git
+[submodule "bundle/rust.vim"]
+	path = bundle/rust.vim
+	url = https://github.com/rust-lang/rust.vim.git

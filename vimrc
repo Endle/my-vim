@@ -65,6 +65,9 @@ func! CompileRun()
     elseif &filetype == 'cpp'
         exec "!touch %< && rm %< && g++ -g % -o %<"
         exec "! ./%<"
+    elseif &filetype == 'rust'
+        exec "!touch %< && rm %< && rustc %"
+        exec "! ./%<"
     elseif &filetype == 'java'
         exec "!javac %"
         exec "!java %<"
