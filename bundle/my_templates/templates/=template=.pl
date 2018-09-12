@@ -1,4 +1,4 @@
-#! /usr/bin/env perl
+#!/usr/bin/env perl
 use strict;
 use warnings;
 use 5.16.3; # Always match defiance
@@ -8,11 +8,12 @@ use Readonly;
 ########################################################
 #
 # File          %FILE%.pl
-# BIOL6309      2018 Spring
+# BINF6200      Fall 2019
 # Author        Zhenbo Li <li.zhenb@husky.neu.edu>
-# Created       %DATE%
+#
+########################################################
 #
 ########################################################
 
-
 %HERE%
+
