@@ -34,3 +34,6 @@
 [submodule "bundle/ejs-syntax"]
 	path = bundle/ejs-syntax
 	url = https://github.com/nikvdp/ejs-syntax.git
+[submodule "bundle/yajs.vim"]
+	path = bundle/yajs.vim
+	url = https://github.com/othree/yajs.vim.git
