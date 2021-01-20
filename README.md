@@ -5,9 +5,9 @@
 vim version > 7.3 (for  Yggdroot / indentLine)
 
 #使用方法
-1. git clone git://gitcafe.com/endle/my-vim.git ~/.vim 
+1. git clone git://gitcafe.com/endle/my-vim.git ~/.vim  
 2. cd ~/.vim  
-3. git submodule init && git submodule update  
+3. git submodule init && git submodule update --depth=1  
 (Reference: <http://liluo.org/blog/2012/05/using-git-submodule-and-vim-pathogen-for-vim-configuraction-management/>)
 
 #Manual
