@@ -199,9 +199,13 @@ nmap <leader>h : call HeaderguardAdd()<CR>
 "显示当前文件路径
 nmap <leader>fp : echo expand('%:p')<CR>
 
+"https://vim.fandom.com/wiki/Folding
+setlocal foldmethod=syntax
+
 " Python 代码折叠
 " http://linux-wiki.cn/wiki/zh-hans/%E9%85%8D%E7%BD%AE%E5%9F%BA%E4%BA%8EVim%E7%9A%84Python%E7%BC%96%E7%A8%8B%E7%8E%AF%E5%A2%83
 autocmd FileType python setlocal foldmethod=indent
+
 "默认展开所有代码
 set foldlevel=99
 
